@@ -12,7 +12,7 @@ image: /assets/images/2026-07-11-cover.jpg
 
 ## 這是段落標題（前面加兩個井號和一個空格）
 
-**這樣是粗體**，[這樣是連結](https://truly-bookstore.in-common.tw/)。
+**這樣是粗體**，[這樣是連結](https://trulybookstore.in-common.tw/)。
 
 插入圖片的寫法（圖片要先上傳到 assets/images/，見 POST_GUIDE.md）：
 

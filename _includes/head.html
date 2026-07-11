@@ -4,9 +4,10 @@
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
 <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" type="image/png">
 
+<script src="https://cdn.tailwindcss.com"></script>
 <script>
-    /* Tailwind 設定必須在 CDN 載入前定義（與主站 js/script.js 相同）*/
-    tailwind = { config: {
+    /* Tailwind 自訂設定（官方建議在 CDN script 之後指定；與主站 js/script.js 相同）*/
+    tailwind.config = {
         theme: {
             extend: {
                 fontFamily: {
@@ -22,9 +23,8 @@
                 }
             }
         }
-    }};
+    };
 </script>
-<script src="https://cdn.tailwindcss.com"></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,6 +33,12 @@
 <script src="https://unpkg.com/lucide@0.400.0/dist/umd/lucide.min.js"></script>
 
 <style>
+    /* 與主站 css/style.css 的 body 規則完全一致（不依賴 Tailwind config 時序）*/
+    body {
+        background-color: #F9F7F2;
+        color: #4A403A;
+        font-family: 'Noto Sans TC', sans-serif;
+    }
     ::selection { background-color: #D4C5B0; color: #4A403A; }
 
     /* 文章內文排版（markdown 產出的 HTML 沒有 class，用容器選擇器統一設定）*/

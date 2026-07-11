@@ -1,6 +1,6 @@
 # 真的書店 Blog
 
-真的書店（[truly-bookstore.in-common.tw](https://truly-bookstore.in-common.tw/)）的部落格。
+真的書店（[trulybookstore.in-common.tw](https://trulybookstore.in-common.tw/)）的部落格。
 線上網址：**https://blog.in-common.tw**
 
 ## 技術架構
@@ -39,4 +39,4 @@ GitHub 帳號層級完成了 `in-common.tw` 的網域驗證（防止子網域被
 ⚠️ **如果日後要下架這個部落格：請先到 DNS 刪除 `blog.in-common.tw` 的 CNAME 記錄，
 再刪除 repo 或關閉 Pages。** 順序顛倒會留下懸空 CNAME，
 任何人都可能把這個子網域接管拿去放垃圾內容（本網域發生過真實案例：
-`truly-bookstore.in-common.tw` 曾因 Netlify 懸空記錄被賭博網站接管）。
+`truly-bookstore.in-common.tw`（帶連字號的舊子網域）曾因 Netlify 懸空記錄被賭博網站接管）。

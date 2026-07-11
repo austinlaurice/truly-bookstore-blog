@@ -27,6 +27,36 @@
                 mobileDropdown.classList.toggle('opacity-0', isOpen);
             });
         }
+
+        // --- QR Code Modal（與主站 js/script.js 相同）---
+        const qrModal = document.getElementById('qr-modal');
+        const qrCard = qrModal ? qrModal.querySelector('div') : null;
+
+        window.openQRModal = () => {
+            if (!qrModal) return;
+            qrModal.classList.remove('invisible', 'opacity-0');
+            if (qrCard) {
+                qrCard.classList.remove('scale-95');
+                qrCard.classList.add('scale-100');
+            }
+            document.body.style.overflow = 'hidden';
+        };
+
+        window.closeQRModal = () => {
+            if (!qrModal) return;
+            qrModal.classList.add('invisible', 'opacity-0');
+            if (qrCard) {
+                qrCard.classList.remove('scale-100');
+                qrCard.classList.add('scale-95');
+            }
+            document.body.style.overflow = '';
+        };
+
+        if (qrModal) {
+            qrModal.addEventListener('click', (e) => {
+                if (e.target === qrModal) closeQRModal();
+            });
+        }
     </script>
 </body>
 </html>
