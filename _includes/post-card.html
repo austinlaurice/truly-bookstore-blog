@@ -1,0 +1,27 @@
+<li class="post-card bg-white p-6 rounded-sm border-l-4 border-deco/50 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+    data-url="{{ include.post.url | relative_url }}">
+    <a href="{{ include.post.url | relative_url }}" class="block group">
+        <div class="flex flex-col sm:flex-row gap-5">
+            {% if include.post.image %}
+            <div class="sm:w-40 shrink-0">
+                <img src="{{ include.post.image | relative_url }}" alt="{{ include.post.title }}" class="w-full h-28 object-cover rounded-sm">
+            </div>
+            {% endif %}
+            <div class="min-w-0">
+                <p class="text-xs text-accent tracking-widest font-sans-tc mb-1">{{ include.post.date | date: "%Y 年 %-m 月 %-d 日" }}</p>
+                <h2 class="font-serif-tc font-bold text-xl text-primary group-hover:text-secondary transition-colors mb-2">{{ include.post.title }}</h2>
+                {% if include.post.description %}
+                <p class="text-sm text-secondary font-light leading-relaxed">{{ include.post.description }}</p>
+                {% endif %}
+            </div>
+        </div>
+    </a>
+    {% if include.post.tags.size > 0 %}
+    <div class="flex flex-wrap gap-2 mt-4">
+        {% for tag in include.post.tags %}
+        <a href="{{ '/tags/' | relative_url }}#{{ tag }}"
+           class="text-xs px-3 py-1 rounded-full bg-light text-accent border border-[#E5E0D8] hover:bg-deco hover:text-primary transition-colors tracking-wide">{{ tag }}</a>
+        {% endfor %}
+    </div>
+    {% endif %}
+</li>

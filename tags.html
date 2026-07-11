@@ -1,0 +1,40 @@
+---
+layout: default
+title: 標籤
+---
+<div class="container mx-auto px-6">
+    <div class="max-w-4xl mx-auto">
+        <header class="text-center mb-12">
+            <h1 class="font-serif-tc font-bold text-3xl text-primary mb-3">標籤</h1>
+            <p class="text-accent text-sm tracking-[0.15em] font-sans-tc">依主題瀏覽文章</p>
+        </header>
+
+        {% assign sorted_tags = site.tags | sort %}
+
+        <div class="flex flex-wrap justify-center gap-3 mb-16">
+            {% for tag in sorted_tags %}
+            <a href="#{{ tag[0] }}"
+               class="text-sm px-4 py-1.5 rounded-full bg-white text-secondary border border-[#E5E0D8] hover:bg-deco hover:text-primary transition-colors tracking-wide font-sans-tc">
+                {{ tag[0] }} <span class="text-accent text-xs">({{ tag[1].size }})</span>
+            </a>
+            {% endfor %}
+        </div>
+
+        {% for tag in sorted_tags %}
+        <section id="{{ tag[0] }}" class="scroll-mt-32 mb-14">
+            <h2 class="font-serif-tc font-bold text-2xl text-primary mb-6 pb-2 border-b border-[#E5E0D8]">
+                {{ tag[0] }} <span class="text-accent text-sm font-sans-tc font-light">{{ tag[1].size }} 篇</span>
+            </h2>
+            <ul class="flex flex-col gap-6">
+                {% for post in tag[1] %}
+                {% include post-card.html post=post %}
+                {% endfor %}
+            </ul>
+        </section>
+        {% endfor %}
+
+        {% if site.tags.size == 0 %}
+        <p class="text-center text-accent py-16 font-light">還沒有任何標籤。</p>
+        {% endif %}
+    </div>
+</div>

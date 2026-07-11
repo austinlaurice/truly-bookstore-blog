@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="container mx-auto px-6">
+    <div class="max-w-4xl mx-auto">
+        {% if page.title %}
+        <h1 class="font-serif-tc font-bold text-3xl text-primary mb-10">{{ page.title }}</h1>
+        {% endif %}
+        {{ content }}
+    </div>
+</div>

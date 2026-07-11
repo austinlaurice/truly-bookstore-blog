@@ -1,0 +1,63 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% seo %}
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
+<link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" type="image/png">
+
+<script>
+    /* Tailwind 設定必須在 CDN 載入前定義（與主站 js/script.js 相同）*/
+    tailwind = { config: {
+        theme: {
+            extend: {
+                fontFamily: {
+                    'serif-tc': ['"Noto Serif TC"', 'serif'],
+                    'sans-tc': ['"Noto Sans TC"', 'sans-serif']
+                },
+                colors: {
+                    primary: '#4A403A',
+                    secondary: '#6B5E55',
+                    accent: '#8C7B6C',
+                    light: '#F9F7F2',
+                    deco: '#D4C5B0'
+                }
+            }
+        }
+    }};
+</script>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&family=Noto+Serif+TC:wght@400;700&display=swap" rel="stylesheet">
+
+<script src="https://unpkg.com/lucide@0.400.0/dist/umd/lucide.min.js"></script>
+
+<style>
+    ::selection { background-color: #D4C5B0; color: #4A403A; }
+
+    /* 文章內文排版（markdown 產出的 HTML 沒有 class，用容器選擇器統一設定）*/
+    .prose-tc { line-height: 1.9; }
+    .prose-tc h2 {
+        font-family: "Noto Serif TC", serif; font-weight: 700; color: #4A403A;
+        font-size: 1.5rem; margin: 2.5rem 0 1rem; padding-bottom: .5rem;
+        border-bottom: 1px solid #E5E0D8;
+    }
+    .prose-tc h3 {
+        font-family: "Noto Serif TC", serif; font-weight: 700; color: #4A403A;
+        font-size: 1.2rem; margin: 2rem 0 .75rem;
+    }
+    .prose-tc p { margin: 1.1rem 0; }
+    .prose-tc a { color: #4A403A; text-decoration: underline; text-decoration-color: #D4C5B0; text-underline-offset: 3px; }
+    .prose-tc a:hover { text-decoration-color: #4A403A; }
+    .prose-tc img { border-radius: 2px; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1); margin: 1.5rem auto; max-width: 100%; }
+    .prose-tc ul, .prose-tc ol { padding-left: 1.5rem; margin: 1.1rem 0; }
+    .prose-tc ul { list-style: disc; }
+    .prose-tc ol { list-style: decimal; }
+    .prose-tc li { margin: .4rem 0; }
+    .prose-tc blockquote {
+        border-left: 4px solid #D4C5B0; padding: .25rem 0 .25rem 1.25rem;
+        color: #6B5E55; font-style: normal; margin: 1.5rem 0; background: #F2EFE9;
+    }
+    .prose-tc code { background: #F2EFE9; padding: .15rem .4rem; border-radius: 2px; font-size: .9em; }
+    .prose-tc hr { border: 0; border-top: 1px solid #E5E0D8; margin: 2.5rem 0; }
+</style>

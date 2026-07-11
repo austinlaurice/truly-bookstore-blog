@@ -1,0 +1,30 @@
+title: 真的書店 Blog
+description: 真的書店 Truly Bookstore 的部落格——選書筆記、店內活動與閱讀日常。
+url: "https://blog.in-common.tw"
+baseurl: ""
+lang: zh-TW
+timezone: Asia/Taipei
+
+permalink: /posts/:year/:month/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  posts_limit: 20
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+
+exclude:
+  - POST_GUIDE.md
+  - post-template.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

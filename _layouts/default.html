@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+    {% include head.html %}
+</head>
+<body class="antialiased bg-light font-sans-tc text-secondary flex flex-col min-h-screen">
+    {% include nav.html %}
+
+    <main class="flex-grow pt-24 md:pt-28 pb-20">
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+    <script>
+        lucide.createIcons();
+
+        // 行動版選單開合（沿用主站的 max-h/opacity 過場作法）
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileDropdown = document.getElementById('mobile-dropdown');
+        if (menuToggle && mobileDropdown) {
+            menuToggle.addEventListener('click', () => {
+                const isOpen = mobileDropdown.classList.contains('max-h-60');
+                mobileDropdown.classList.toggle('max-h-60', !isOpen);
+                mobileDropdown.classList.toggle('opacity-100', !isOpen);
+                mobileDropdown.classList.toggle('max-h-0', isOpen);
+                mobileDropdown.classList.toggle('opacity-0', isOpen);
+            });
+        }
+    </script>
+</body>
+</html>
