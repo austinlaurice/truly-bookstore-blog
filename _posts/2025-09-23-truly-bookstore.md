@@ -1,7 +1,7 @@
 ---
 title: Books 噫 電子報｜真的要開書店了
 date: 2025-09-23 10:00:00 +0800
-tags: [電子報] [開店]
+tags: [9月, 電子報, 開店]
 description: 九月份電子報
 ---
 ##Dear Reader：
