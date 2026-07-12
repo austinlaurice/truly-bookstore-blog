@@ -2,7 +2,7 @@
 title: Books 噫 電子報｜驚奇十月
 date: 2025-10-20 10:30:00 +0800
 tags: [10月, 電子報, 棒球]
-description: 九月份電子報
+description: 十月份電子報
 ---
 
 Dear Reader：	
@@ -18,14 +18,14 @@ Dear Reader：
 還不能告訴大家長什麼樣子（也還沒確定）但可以分享我提供給設計師 Chloe 的參考圖，讓大家看到最終版本時可以讚嘆一下她怎麼化腐朽為神奇XD
 
 - 差強人意的 AI 產品
-![差強人意的 AI 產品](/assets/images/2025-10-20-so-so-AI-logo)
+![差強人意的 AI 產品](/assets/images/2025-10-20-so-so-AI-logo.PNG)
 
 ⭐ 就是現在的頭貼啦
 Prompt：我想把「山海田川」和「之間」的意象畫成 logo，風格是抽象、簡潔、線條示意，顏色以自然配色
 圖其實離我的理想差蠻多的，只是後面要改他都給我大同小異的東西，就放棄了（。
 
 - 我的刺青圖
-![我的刺青圖](/assets/images/2025-10-20-my-tattoo)
+![我的刺青圖](/assets/images/2025-10-20-my-tattoo.jpg)
 [原圖來源](https://www.instagram.com/remember_me_tattoo/)
 
 ⭐ 我跟設計師說：突發奇想覺得可以融入也不錯……抱歉有這麼多突發奇想
@@ -34,7 +34,7 @@ Prompt：我想把「山海田川」和「之間」的意象畫成 logo，風格
 
 
 - 之前 Podcast 的封面圖
-![之前 Podcast 的封面圖](/assets/images/2025-10-20-used-podcast-cover)
+![之前 Podcast 的封面圖](/assets/images/2025-10-20-used-podcast-cover.jpeg)
 
 ⭐ 這是在 2021 年和我弟（Podcast 另一個主持人）做節目時，一起手繪的封面圖
 因為想說這次書店的籌備到一段落後，可以繼續錄音、更新節目、一併換張和書店同系列的封面圖，就也丟給設計師！
