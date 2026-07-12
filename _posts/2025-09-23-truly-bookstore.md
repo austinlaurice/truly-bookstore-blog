@@ -68,7 +68,7 @@ Dear Reader：
 正如一本在臉友貼文看到的論文集的名字－－「成為臺灣的我們」（內容如何還不知道，但這個書名超級喜歡）
 
 
-
+![成為臺灣的我們](assets/images/how-we-became-Taiwanese.jpg)
 
 期待跟大家「真的見面」的那一天 🙌
 
