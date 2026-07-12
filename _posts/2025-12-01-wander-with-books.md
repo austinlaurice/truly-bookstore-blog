@@ -2,7 +2,7 @@
 title: Books 噫 電子報｜書去旅行
 date: 2025-12-01 01:30:00 +0800
 tags: [電子報, 旅行]
-description: 微遲到的11月份電子報
+description: 微遲到的十一月份電子報
 ---
 Dear Reader：	
 
