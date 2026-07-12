@@ -10,7 +10,7 @@ Dear Reader：
 
 第二件事情，因為空間還要一陣子但我等不及和大家見面，所以報名了一個市集：12 月 13、14 日兩天在彰化的不厝，行程已經確定，細節還在規劃，有空有興趣的人來找我玩 🙌
 
-![書蟲市集宣傳圖](assets/images/2025-12-01-bookworm-market.jpg)
+![書蟲市集宣傳圖](assets/images/2025-12-01-bookworm-market.JPG)
 
 至於我，這期先來分享，我出去找大家玩的點滴日常 💧
 ## 分享：無比珍貴的祝福
@@ -45,8 +45,8 @@ Dear Reader：
 
 
 💖 小讀者有買單的快樂
-![小朋友回饋-01](assets/images/2025-12-01-students-01.jpg)
-![小朋友回饋-02](assets/images/2025-12-01-students-02.jpg)
+![小朋友回饋-01](assets/images/2025-12-01-students-01.JPG)
+![小朋友回饋-02](assets/images/2025-12-01-students-02.JPG)
 
 🕸️ 或具體或開放的邀請
 
@@ -72,5 +72,6 @@ Dear Reader：
 Yours truly, Ping 2025.12.1
 
 開店前可以：
+
 💬 加入讀者社群，立即回覆想法
 💖 搶先購書支持
