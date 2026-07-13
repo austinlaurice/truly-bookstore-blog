@@ -55,7 +55,9 @@
     .prose-tc p { margin: 1.1rem 0; }
     .prose-tc a { color: #4A403A; text-decoration: underline; text-decoration-color: #D4C5B0; text-underline-offset: 3px; }
     .prose-tc a:hover { text-decoration-color: #4A403A; }
-    .prose-tc img { border-radius: 2px; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1); margin: 1.5rem auto; max-width: 100%; }
+    /* 圖片：預設全寬置中；作者可用 {: width="400" } 或 {: width="60%" } 指定寬度，
+       height:auto 讓高度依比例自動縮放，max-width:100% 確保手機上不會超出畫面 */
+    .prose-tc img { border-radius: 2px; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1); margin: 1.5rem auto; display: block; height: auto; max-width: 100%; }
     .prose-tc ul, .prose-tc ol { padding-left: 1.5rem; margin: 1.1rem 0; }
     .prose-tc ul { list-style: disc; }
     .prose-tc ol { list-style: decimal; }

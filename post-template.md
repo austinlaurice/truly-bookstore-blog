@@ -18,5 +18,11 @@ image: /assets/images/2026-07-11-cover.jpg
 
 ![圖片說明文字](/assets/images/2026-07-11-photo.jpg)
 
+想控制圖片寬度時，在後面加 `{: width="..." }`（高度會自動依比例縮放）：
+
+![佔內文六成寬](/assets/images/2026-07-11-photo.jpg){: width="60%" }
+
+![固定 400 像素寬](/assets/images/2026-07-11-photo.jpg){: width="400" }
+
 - 這樣是列表
 - 第二點
